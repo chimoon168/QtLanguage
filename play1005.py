@@ -18,7 +18,6 @@ class Ui_Dialog(object):
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(60, 100, 121, 41))
         self.label.setStyleSheet("background-color: rgb(234, 167, 167);")
-        self.label.setText("")
         self.label.setIndent(5)
         self.label.setObjectName("label")
 
@@ -29,6 +28,7 @@ class Ui_Dialog(object):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.pushButton.setText(_translate("Dialog", "PushButton"))
+        self.label.setText(_translate("Dialog", "label"))
 
 
 if __name__ == "__main__":

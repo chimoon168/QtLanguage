@@ -39,7 +39,7 @@
     <string notr="true">background-color: rgb(234, 167, 167);</string>
    </property>
    <property name="text">
-    <string/>
+    <string>label</string>
    </property>
    <property name="margin">
     <number>5</number>
