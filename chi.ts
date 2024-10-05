@@ -16,7 +16,7 @@
     <message>
         <location filename="play1005.ui" line="42"/>
         <source>label</source>
-        <translation type="unfinished">你好</translation>
+        <translation>你好</translation>
     </message>
 </context>
 </TS>
