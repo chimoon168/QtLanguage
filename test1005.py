@@ -34,8 +34,9 @@ with open ("language.txt", mode = "r") as file:
     elif txt == "japanese":
         translate = translate_to_japanese
     else:
-        translate = {"button": "無法辨識", "hello": "無法辨識"}  # 預設錯誤訊息
-        
+        translate = translate_to_chinese # 預設中文
+        # translate = {"button": "無法辨識", "hello": "無法辨識"}  # 預設錯誤訊息
+
 ui.pushButton.setText(translate["button"])
     
 def buttonClick():
